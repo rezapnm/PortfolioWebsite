@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+   padding-top: 20px;
+   /* width: 90%; */
+   margin: auto;
+   background-color: #202020;
+   color: #ebebeb;
+}
+
+#navbar {
+   background-color: #202020;
+}
+
+.navbar {
+   margin: auto;
+   width: 90%;
+}
+
+.nav-link {
+   color: #ebebeb;
+   text-align: center;
+   font-family: Playfair Display;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 3.6px;
+}
+
+.navbar-toggler {
+   border: none;
+}
+
+.navbar-toggler-icon {
+   background-image: url(./Images/Menu\(2\).png);
+}
+
+nav img {
+   width: 35px;
+}
+
+.hero {
+   /* background-color: aqua; */
+   /* padding: 0; */
+   height: 90vh;
+   width: 90%;
+   margin: auto;
+   align-items: center;
+   justify-content: center;
+}
+
+.hero h1 {
+   color: #b19a47;
+   text-align: center;
+   font-family: Chonburi;
+   font-size: 120px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 156px; /* 130% */
+   letter-spacing: 42px;
+}
+
+.hero h4 {
+   color: #ebebeb;
+   text-align: center;
+   font-family: Playfair Display;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 5.2px;
+}
+
+.hero svg {
+   width: 36px;
+}
+
+.hero .role {
+   margin: 0;
+   padding: 0;
+}
+
+.hero .quote h4 {
+   color: #ebebeb;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 4.55px;
+   margin-top: 80px;
+}
+
+span.coffee {
+   color: #75592f;
+   font-weight: 700;
+}
+
+span.something {
+   color: #3c9ca9;
+   font-weight: 700;
+}
+
+#about {
+   background: #424242;
+   margin-top: 80px;
+}
+
+#about .about-body {
+   width: 90%;
+   margin: auto;
+}
+
+.title {
+   color: #b19a47;
+   text-align: left;
+   font-family: Chonburi;
+   font-size: 90px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 16.2px;
+}
+
+#about .about-text {
+   color: #ebebeb;
+   text-align: justify;
+   font-family: Poppins;
+   font-size: 26px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 42px; /* 161.538% */
+   letter-spacing: 1.5px;
+}
+
+#about .about-picture {
+   text-align: end;
+}
+
+#projects .projects-body {
+   width: 90%;
+   margin: auto;
+}
+
+.project-title {
+   color: #b19a47;
+   text-align: center;
+   font-family: Playfair Display;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 42px; /* 105% */
+   letter-spacing: 3.2px;
+}
+
+.project-subtitle {
+   color: #ccc;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 42px; /* 140% */
+   letter-spacing: 2.4px;
+}
+
+.project-detail {
+   border-top: 3px solid #e07171;
+   text-align: justify;
+   max-width: 680px;
+}
+
+.project-list {
+   color: #ccc;
+   text-align: justify;
+   font-family: Poppins;
+   font-size: 26px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 36px; /* 138.462% */
+   letter-spacing: 2.08px;
+}
+
+.project-list span {
+   color: #3c9ca9;
+   font-family: Poppins;
+   font-size: 26px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 36px;
+   letter-spacing: 2.08px;
+}
+
+.footer {
+   background: #87704c;
+   height: 80px;
+   color: #fff;
+   text-align: right;
+   font-family: Playfair-Display;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   letter-spacing: 1.92px;
+}
+
+/* extra SM */
+@media (max-width: 575px) {
+   .hero h1 {
+      color: #b19a47;
+      text-align: center;
+      font-family: Chonburi;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 70px; /* 173.913% */
+      letter-spacing: 8px;
+      /* background-color: #3c9ca9; */
+   }
+   .hero h4 {
+      color: #ebebeb;
+      text-align: center;
+      font-family: Playfair Display;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 2px;
+   }
+   .hero svg {
+      width: 30px;
+      /* height: 20px; */
+   }
+   .hero .quote h4 {
+      color: #ebebeb;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 4.55px;
+      margin-top: 80px;
+   }
+   .title {
+      color: #b19a47;
+      text-align: center;
+      font-family: Chonburi;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 6px;
+   }
+   #about .about-text {
+      color: #ebebeb;
+      text-align: justify;
+      font-family: Poppins;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 37px; /* 161.538% */
+      letter-spacing: 1.2px;
+   }
+   #about .about-picture {
+      text-align: center;
+   }
+   #about .about-picture img {
+      height: 350px;
+   }
+   .project-title {
+      color: #b19a47;
+      text-align: center;
+      font-family: Playfair Display;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 42px; /* 105% */
+      letter-spacing: 3.2px;
+   }
+
+   .project-subtitle {
+      color: #ccc;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px; /* 140% */
+      letter-spacing: 2.4px;
+   }
+   .project-list {
+      color: #ccc;
+      text-align: justify;
+      font-family: Poppins;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 36px; /* 138.462% */
+      letter-spacing: 1.2px;
+   }
+
+   .project-list span {
+      color: #3c9ca9;
+      font-family: Poppins;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 36px;
+      letter-spacing: 1.2px;
+   }
+}
+
+/* sm */
+@media (min-width: 576px) and (max-width: 768px) {
+   .hero h1 {
+      color: #b19a47;
+      text-align: center;
+      font-family: Chonburi;
+      font-size: 90px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 90px; /* 173.913% */
+      letter-spacing: 10px;
+      /* background-color: #75592f; */
+   }
+   .hero h4 {
+      color: #ebebeb;
+      text-align: center;
+      font-family: Playfair Display;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 2px;
+   }
+   .hero svg {
+      width: 30px;
+      /* height: 20px; */
+   }
+   .hero .quote h4 {
+      color: #ebebeb;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 4.55px;
+      margin-top: 80px;
+   }
+   .medsos-logo {
+      width: 25px;
+   }
+   .title {
+      color: #b19a47;
+      text-align: center;
+      font-family: Chonburi;
+      font-size: 66px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 6px;
+   }
+   #about .about-text {
+      color: #ebebeb;
+      text-align: justify;
+      font-family: Poppins;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px; /* 161.538% */
+      letter-spacing: 1.2px;
+   }
+   #about .about-picture {
+      text-align: center;
+   }
+   #about .about-picture img {
+      height: 400px;
+   }
+   .project-title {
+      color: #b19a47;
+      text-align: center;
+      font-family: Playfair Display;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 42px; /* 105% */
+      letter-spacing: 3.2px;
+   }
+
+   .project-subtitle {
+      color: #ccc;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 35px; /* 140% */
+      letter-spacing: 2.4px;
+   }
+   .project-list {
+      color: #ccc;
+      text-align: justify;
+      font-family: Poppins;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 40px; /* 138.462% */
+      letter-spacing: 1.2px;
+   }
+
+   .project-list span {
+      color: #3c9ca9;
+      font-family: Poppins;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 40px;
+      letter-spacing: 1.2px;
+   }
+}
+
+/* md */
+@media (min-width: 769px) and (max-width: 992px) {
+   .hero h1 {
+      color: #b19a47;
+      text-align: center;
+      font-family: Chonburi;
+      font-size: 120px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120px; /* 173.913% */
+      letter-spacing: 13px;
+      /* background-color: #e07171; */
+   }
+   .hero h4 {
+      color: #ebebeb;
+      text-align: center;
+      font-family: Playfair Display;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 2px;
+   }
+
+   .hero .quote h4 {
+      color: #ebebeb;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 4.55px;
+      margin-top: 80px;
+   }
+   .title {
+      color: #b19a47;
+      text-align: left;
+      font-family: Chonburi;
+      font-size: 80px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 6px;
+   }
+   #about .about-text {
+      color: #ebebeb;
+      text-align: justify;
+      font-family: Poppins;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 42px; /* 161.538% */
+      letter-spacing: 1.5px;
+   }
+   #about .about-picture {
+      text-align: center;
+   }
+   #about .about-picture img {
+      height: 400px;
+   }
+}
