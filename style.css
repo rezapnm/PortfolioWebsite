@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-   padding-top: 20px;
+   padding-top: 0px;
    /* width: 90%; */
    margin: auto;
    /* background-color: #202020; */
@@ -209,7 +209,7 @@ span.something {
 .footer {
    margin-top: 100px;
    background: #b19a47;
-   height: 80px;
+   height: 70px;
    color: #fff;
    text-align: right;
    font-family: Playfair-Display;
