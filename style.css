@@ -17,7 +17,7 @@ body {
 }
 
 #navbar {
-   background-color: #202020;
+   background-color: #b19a47;
 }
 
 .navbar {
@@ -38,10 +38,12 @@ body {
 
 .navbar-toggler {
    border: none;
+   margin: 0;
+   padding: 0;
 }
 
 .navbar-toggler-icon {
-   background-image: url(./Images/Menu\(2\).png);
+   background-image: url(./Images/Menu.svg);
 }
 
 nav img {
@@ -205,6 +207,7 @@ span.something {
 }
 
 .footer {
+   margin-top: 100px;
    background: #b19a47;
    height: 80px;
    color: #fff;
