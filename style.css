@@ -6,7 +6,13 @@ body {
    padding-top: 20px;
    /* width: 90%; */
    margin: auto;
+   /* background-color: #202020; */
    background-color: #202020;
+   opacity: 1;
+   background-image: radial-gradient(#484848 0.9px, transparent 0.9px),
+      radial-gradient(#484848 0.9px, #202020 0.9px);
+   background-size: 36px 36px;
+   background-position: 0 0, 18px 18px;
    color: #ebebeb;
 }
 
@@ -106,7 +112,9 @@ span.something {
 }
 
 #about {
-   background: #424242;
+   /* background: #424242; */
+   border-top: 10px solid #b19a47;
+   border-bottom: 10px solid #b19a47;
    margin-top: 80px;
 }
 
@@ -144,6 +152,7 @@ span.something {
 #projects .projects-body {
    width: 90%;
    margin: auto;
+   margin-top: 30px;
 }
 
 .project-title {
@@ -196,7 +205,7 @@ span.something {
 }
 
 .footer {
-   background: #87704c;
+   background: #b19a47;
    height: 80px;
    color: #fff;
    text-align: right;
@@ -205,7 +214,7 @@ span.something {
    font-style: normal;
    font-weight: 300;
    line-height: normal;
-   letter-spacing: 1.92px;
+   letter-spacing: 1.5px;
 }
 
 /* extra SM */
@@ -220,6 +229,10 @@ span.something {
       line-height: 70px; /* 173.913% */
       letter-spacing: 8px;
       /* background-color: #3c9ca9; */
+   }
+
+   .role-desc {
+      margin-bottom: 80px;
    }
    .hero h4 {
       color: #ebebeb;
